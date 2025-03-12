@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/CSS/style.css">
+    <link rel="stylesheet" href="src/CSS/header.css">
+    <link rel="stylesheet" href="src/CSS/home.css">
+
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-burger" id="nav_logo">FOOD</i>
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#home">cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">avaliação</a>
+                </li>
+            </ul>
+            <button class="btn-default">Peça aqui</button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#home">cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">avaliação</a>
+                </li>
+            </ul>
+            <button class="btn-default">Peça aqui</button>
+
+        </div>
+    </header>
+
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor vai até <span>você</span>
+                </h1>
+                <p>description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem itaque saepe natus
+                    impedit nihil laboriosam distinctio cumque et quaerat? Cum ducimus iste tempore dignissimos
+                    perferendis quaerat! Quaerat officiis ipsum aliquam.
+                </p>
+            </div>
+            <div id="cta_buttons">
+                <a href="#" class="btn-default">
+                    ver cardápio
+                </a>
+
+                <a href="tel:+9999999999" id="phone-btn">
+                    <button class="btn-default">
+                        <i class="fa-solid fa-phone"></i>
+                        (51) 999999999
+                    </button>
+                </a>
+            </div>
+            <div class="social-media-buttons">
+                <a href="#">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+
+            <div id="banner">
+                <img src="src/imgs/camisetas (9).jpg" alt="tomato">
+            </div>
+        </section>
+
+    </main>
+    <script src="src/javascript/script.js"></script>
+</body>
+
+</html>

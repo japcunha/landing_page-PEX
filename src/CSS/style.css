@@ -10,6 +10,11 @@
 body {
     background-color: #fff9ea;
 }
+
+.section {
+    padding: 28px 8%;
+}
+
 .btn-default {
     border: none;
     display: flex;
@@ -23,6 +28,7 @@ body {
     cursor: pointer;
     transition: background-color .3s ease;
 }
+
 .btn-default:hover {
     background-color: #f8d477;
 }

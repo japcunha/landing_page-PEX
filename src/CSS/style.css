@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #fff9ea;
+    background-color: #eee3c7;
 }
 
 section {
@@ -55,4 +55,11 @@ section {
 
 .social-media-buttons a:hover {
     box-shadow: 0px 0px 12px 8px rgba(0, 0, 0, 0.1);
+}
+.section-title {
+    color: #e9a209;
+    font-size: 1.563rem;
+}
+.section-subtitle {
+    font-size: 2.1875rem;
 }

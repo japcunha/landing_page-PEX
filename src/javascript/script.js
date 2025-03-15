@@ -29,6 +29,8 @@ $(document).ready(function () {
         return false;
       }
     });
+
+    navItems.removeClass('active');
     $(navItems[activeSectionIndex]).addClass("active");
 
     ScrollReveal().reveal("#cta", {

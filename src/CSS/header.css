@@ -16,7 +16,7 @@ header {
 
 #nav_logo {
     font-size: 34px;
-    color: #e9a209;
+    color: var(--color-primary-4);
 
 }
 
@@ -34,8 +34,8 @@ header {
 }
 
 .nav-item.active a {
-    color: #1d1d1d;
-    border-bottom: 3px solid #ffe100;
+    color: var(--color-neutral-1);
+    border-bottom: 3px solid var(--color-primary-3);
 
 }
 

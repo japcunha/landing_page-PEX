@@ -14,11 +14,11 @@
 
 #cta .title {
     font-size: 4rem;
-    color: #1d1d1d;
+    color: var(--color-neutral-1);
 }
 
 #cta .title span {
-    color: #e9a209;
+    color: var(--color-primary-4);
 }
 
 #cta .description {
@@ -32,7 +32,7 @@
 
 #cta_buttons a {
     text-decoration: none;
-    color: #1d1d1d;
+    color: var(--color-neutral-1);
 }
 
 #phone_button {
@@ -46,20 +46,24 @@
     border-radius: 12px;
 
 }
-#phone_button button{
+
+#phone_button button {
     box-shadow: none;
 }
+
 #banner {
     display: flex;
     align-items: start;
-    justify-content:end;
+    justify-content: end;
     width: 70%;
     z-index: 2;
 }
-#banner img{
+
+#banner img {
     height: 100%;
     width: fit-content;
 }
+
 .shape {
     background-color: #ffe9b4da;
     width: 50%;
@@ -70,22 +74,26 @@
     right: 0;
     z-index: 1;
 }
+
 @media screen and (max-width: 1170px) {
     #home {
         min-height: 100%;
         padding-top: 0px;
     }
+
     #banner,
     #banner img,
     #home .shape {
         display: none;
     }
+
     #cta {
         width: 100%;
         text-align: center;
         align-items: center;
     }
 }
+
 @media screen and (max-width: 450px) {
     #phone_button button {
         display: none;

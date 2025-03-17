@@ -232,6 +232,23 @@
                 </div>
             </div>
         </section>
+        <section id="order-form">
+            <h2 id="action-title">Faça seu pedido</h2>
+            <input type="text" id="customerName" placeholder="Nome do cliente:">
+            <input type="text" id="items" placeholder="Itens(ex: pizza, suco etc)">
+            <input type="number" id="totalAmount" placeholder="Total">
+            <button idonclick="createOrder()" id="btn-pedido">Fazer pedido</button>
+
+
+            <div id="order-list">
+                <h2>Pedidos recentes</h2>
+                <ul id="orderResults">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
 
         <section id="testimonials">
             <img src="src/imgs/chef.png" id="testimonial_chef" alt="chef">
@@ -241,7 +258,7 @@
                     Depoimentos de clientes
                 </h2>
                 <h3 class="section_subtitle">
-                    o que os clientes falam sobre nós
+                    O que clientes falam sobre nós
                 </h3>
 
                 <div id="feedbacks">
@@ -283,11 +300,11 @@
                             </p>
                         </div>
                     </div>
-                </div>
+             
                 <button id="btn-default">
                     ver mais avaliações
                 </button>
-
+                   </div>
             </div>
         </section>
     </main>

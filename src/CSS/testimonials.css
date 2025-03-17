@@ -16,7 +16,7 @@
 }
 
 #testimonials_content {
-    width: 50%;
+    width: 80%;
 }
 
 #feedbacks {
@@ -82,15 +82,19 @@
         font-size: 2.0rem;
 
     }
+
     .feedback {
         flex-direction: column;
+    }
 
+    .feedback-content {
+        width: 250px;
+        margin: 0 auto;
     }
 
     #testimonianls_content {
         width: 100%;
         flex-wrap: wrap;
         justify-content: center;
-      
     }
 }

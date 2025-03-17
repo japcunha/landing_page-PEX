@@ -5,6 +5,15 @@ $(document).ready(function () {
   });
   const sections = $("section");
   const navItems = $(".nav-item");
+  
+  navItems.on("click", function (e) {
+    e.preventDefault();
+    const target = $($(this).find("a").attr("href"));
+    $("html, body").animate({
+      scrollTop: target.offset().top - $("header").outerHeight() + 1
+    }, 800);
+  });
+  
 
   $(window).on("scroll", function () {
     const header = $("header");
@@ -20,7 +29,7 @@ $(document).ready(function () {
 
     sections.each(function (index) {
       const section = $(this);
-      const top = $(this).offset().top - 96;
+      const top = $(this).offset().top - 121;
       const bottom = top + $(this).outerHeight();
 
       if (scrollPosition >= top && scrollPosition <= bottom) {

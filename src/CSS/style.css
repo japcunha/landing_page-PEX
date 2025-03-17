@@ -4,6 +4,7 @@
 @import url('menu.css');
 @import url('testimonials.css');
 @import url('footer.css');
+@import url('pedidos.css');
 
 :root {
     --color-primary-1: #fff9ea;
@@ -53,6 +54,7 @@ section {
 .social-media-buttons {
     display: flex;
     gap: 18px;
+    margin: 0 auto;
 }
 
 .social-media-buttons a {

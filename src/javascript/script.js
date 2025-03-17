@@ -12,11 +12,10 @@ $(document).ready(function () {
 
     let activeSectionIndex = 0;
 
-
     if (scrollPosition <= 0) {
       header.css("box-shadow", "none");
     } else {
-      header.css("box-shadow", "5px 1px 5px rgba(0,0,0,0.1");
+      header.css("box-shadow", "5px 1px 5px rgba(0,0,0,0.1)");
     }
 
     sections.each(function (index) {
@@ -25,18 +24,18 @@ $(document).ready(function () {
       const bottom = top + $(this).outerHeight();
 
       if (scrollPosition >= top && scrollPosition <= bottom) {
-        activeSection = index;
+        activeSectionIndex = index;
         return false;
       }
     });
 
-    navItems.removeClass('active');
+    navItems.removeClass("active");
     $(navItems[activeSectionIndex]).addClass("active");
-
-    ScrollReveal().reveal("#cta", {
-      origin: "left",
-      duration: 2000,
-      distance: "20%",
-    });
+  });
+  
+  ScrollReveal().reveal("#cta", {
+    origin: "left",
+    duration: 2000,
+    distance: "20%",
   });
 });

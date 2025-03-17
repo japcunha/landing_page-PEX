@@ -1,9 +1,9 @@
 footer {
-    background-color: var(--color-primary-2);
+    background-color: var(--color-primary-1);
 }
 #footer-items {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px 8px 24px 8px;
     align-items: center;
 }

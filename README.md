@@ -4,6 +4,7 @@
  
 # Tecnologias:
 -Javascript
+-HTML
 -CSS
 -Jquery
 
